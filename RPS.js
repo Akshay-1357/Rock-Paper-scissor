@@ -56,8 +56,8 @@
 
       document.querySelector('.js-moves')
         .innerHTML =`you picked
-        <img src="images/${playersmove}-emoji.png" class="move-icon">
-        computer <img src="images/${computer}-emoji.png" class="move-icon">`   
+        <img src="Rock Paper Scissors_files/${playersmove}-emoji.png" class="move-icon">
+        computer <img src="Rock Paper Scissors_files/${computer}-emoji.png" class="move-icon">`   
       }
 
  
@@ -89,4 +89,5 @@
         .innerHTML = `wins : ${score.wins},loses : ${score.loses},tie :${score.tie}`
      
     }
+
      
